@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IbyDO2xdt4pkMlUVlgaFAzpdYyrfRP4vpxd27kjU6ddDPWo/Ty3qaEjAFOaTAEVIga5wNH+8dSrGYLwxCo733A==",
+  "dgSpecHash": "ST5ehUjrZt4siPckMY1QDszXAjAqcyZaIlcysq/iyZy2o9VVb+PYZWO31GD6NETekQCCiam9lX4GiYHRA8H+kg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj",
+  "projectFilePath": "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricardo.gerin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ricardo.gerin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

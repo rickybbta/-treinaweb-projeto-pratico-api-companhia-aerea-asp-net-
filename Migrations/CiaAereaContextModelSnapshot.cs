@@ -17,10 +17,10 @@ namespace CiaAerea.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.3")
+                .HasAnnotation("ProductVersion", "8.0.0-preview.1.23111.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
             modelBuilder.Entity("CiaAerea.Entities.Aeronave", b =>
                 {
@@ -28,23 +28,26 @@ namespace CiaAerea.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Codigo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("Fabricante")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Modelo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Aeronaves");
+                    b.ToTable("Aeronaves", (string)null);
                 });
 
             modelBuilder.Entity("CiaAerea.Entities.Cancelamento", b =>
@@ -53,14 +56,15 @@ namespace CiaAerea.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("DataHoraNotificacao")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Motivo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<int>("VooId")
                         .HasColumnType("int");
@@ -70,7 +74,7 @@ namespace CiaAerea.Migrations
                     b.HasIndex("VooId")
                         .IsUnique();
 
-                    b.ToTable("Cancelamentos");
+                    b.ToTable("Cancelamentos", (string)null);
                 });
 
             modelBuilder.Entity("CiaAerea.Entities.Manutencao", b =>
@@ -79,7 +83,7 @@ namespace CiaAerea.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("AeronaveId")
                         .HasColumnType("int");
@@ -88,7 +92,8 @@ namespace CiaAerea.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Observacoes")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<int>("Tipo")
                         .HasColumnType("int");
@@ -97,7 +102,7 @@ namespace CiaAerea.Migrations
 
                     b.HasIndex("AeronaveId");
 
-                    b.ToTable("Manutencoes");
+                    b.ToTable("Manutencoes", (string)null);
                 });
 
             modelBuilder.Entity("CiaAerea.Entities.Piloto", b =>
@@ -106,19 +111,24 @@ namespace CiaAerea.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Matricula")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Pilotos");
+                    b.HasIndex("Matricula")
+                        .IsUnique();
+
+                    b.ToTable("Pilotos", (string)null);
                 });
 
             modelBuilder.Entity("CiaAerea.Entities.Voo", b =>
@@ -127,7 +137,7 @@ namespace CiaAerea.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("AeronaveId")
                         .HasColumnType("int");
@@ -140,11 +150,13 @@ namespace CiaAerea.Migrations
 
                     b.Property<string>("Destino")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(3)
+                        .HasColumnType("nvarchar(3)");
 
                     b.Property<string>("Origem")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(3)
+                        .HasColumnType("nvarchar(3)");
 
                     b.Property<int>("PilotoId")
                         .HasColumnType("int");
@@ -155,7 +167,7 @@ namespace CiaAerea.Migrations
 
                     b.HasIndex("PilotoId");
 
-                    b.ToTable("Voos");
+                    b.ToTable("Voos", (string)null);
                 });
 
             modelBuilder.Entity("CiaAerea.Entities.Cancelamento", b =>

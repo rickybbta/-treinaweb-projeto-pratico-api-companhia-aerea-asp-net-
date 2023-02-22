@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uoxqLZ6jdmCK353oN2VZjpY1Oy473Y81NWS6WZ+u9QQX7cDe+zJUc21sUeSEitrA8Kk5I66ifkfFTIL2FNWF4A==",
+  "dgSpecHash": "kVlHCKlQgzHyau8EUoiVoXpYSqeXKjGVeGSKEYS/81bxH+enYlQBLN6eT5BqWwd4tyvznbecJud9ZYCSqp+pcw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricardo.gerin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ricardo.gerin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\ricardo.gerin\\.nuget\\packages\\dinktopdf\\1.0.8\\dinktopdf.1.0.8.nupkg.sha512",
-    "C:\\Users\\ricardo.gerin\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\ricardo.gerin\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\ricardo.gerin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ricardo.gerin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ricardo.gerin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

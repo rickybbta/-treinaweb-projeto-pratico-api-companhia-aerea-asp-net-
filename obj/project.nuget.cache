@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kVlHCKlQgzHyau8EUoiVoXpYSqeXKjGVeGSKEYS/81bxH+enYlQBLN6eT5BqWwd4tyvznbecJud9ZYCSqp+pcw==",
+  "dgSpecHash": "xOwtpNZFHv9uiI2FHjPPumObmM6TArXyvxU/rvzvC9BeALfI/SWOvPnIHPx3YjnOE7N/J/dAeuaJK7x2ZkR2tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
+  "projectFilePath": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricardo.gerin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ricardo.gerin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

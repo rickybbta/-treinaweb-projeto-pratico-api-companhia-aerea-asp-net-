@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj": {}
+    "c:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj": {
+    "c:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj",
+        "projectUniqueName": "c:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj",
         "projectName": "CiaAerea",
-        "projectPath": "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj",
+        "projectPath": "c:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj",
         "packagesPath": "C:\\Users\\ricardo.gerin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\obj\\",
+        "outputPath": "c:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ricardo.gerin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "DinkToPdf": {
               "target": "Package",
@@ -48,15 +48,19 @@
               "target": "Package",
               "version": "[10.4.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23111.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[8.0.0-preview.1.23111.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[8.0.0-preview.1.23111.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -74,24 +78,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.14, 6.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

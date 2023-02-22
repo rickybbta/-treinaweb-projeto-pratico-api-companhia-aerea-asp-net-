@@ -16,7 +16,7 @@ public class AeronaveController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult AdicionarAeronave(AdicionarAeronaveViewModel dados)
+    public IActionResult AdicionarAeronave([FromBody] AdicionarAeronaveViewModel dados)
     {
         var aeronave = _aeronaveService.AdicionarAeronave(dados);
         return CreatedAtAction(nameof(ListarAeronavePeloId), new { id = aeronave.Id }, aeronave);
@@ -29,7 +29,7 @@ public class AeronaveController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public IActionResult ListarAeronavePeloId(int id)
+    public IActionResult ListarAeronavePeloId([FromRoute] int id)
     {
         var aeronave = _aeronaveService.ListarAeronavePeloId(id);
 
@@ -42,7 +42,7 @@ public class AeronaveController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public IActionResult AtualizarAeronave(int id, AtualizarAeronaveViewModel dados)
+    public IActionResult AtualizarAeronave([FromRoute] int id, [FromBody] AtualizarAeronaveViewModel dados)
     {
         if (id != dados.Id)
             return BadRequest("O id informado na URL é diferente do id informado no corpo da requisição.");
@@ -52,7 +52,7 @@ public class AeronaveController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public IActionResult ExcluirAeronave(int id)
+    public IActionResult ExcluirAeronave([FromRoute] int id)
     {
         _aeronaveService.ExcluirAeronave(id);
         return NoContent();

@@ -7082,11 +7082,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj",
+      "projectUniqueName": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
       "projectName": "CiaAerea",
-      "projectPath": "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj",
+      "projectPath": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
       "packagesPath": "C:\\Users\\ricardo.gerin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\obj\\",
+      "outputPath": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ricardo.gerin\\AppData\\Roaming\\NuGet\\NuGet.Config",

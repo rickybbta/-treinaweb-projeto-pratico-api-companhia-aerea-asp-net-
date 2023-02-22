@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj": {}
+    "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj": {
+    "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj",
+        "projectUniqueName": "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj",
         "projectName": "CiaAerea",
-        "projectPath": "c:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj",
+        "projectPath": "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\CiaAerea.csproj",
         "packagesPath": "C:\\Users\\ricardo.gerin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\obj\\",
+        "outputPath": "C:\\Users\\ricardo.gerin\\desktop\\treinaweb\\dotnet\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ricardo.gerin\\AppData\\Roaming\\NuGet\\NuGet.Config",

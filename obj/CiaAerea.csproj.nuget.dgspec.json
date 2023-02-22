@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj": {}
+    "C:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj": {
+    "C:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
+        "projectUniqueName": "C:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
         "projectName": "CiaAerea",
-        "projectPath": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
+        "projectPath": "C:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
         "packagesPath": "C:\\Users\\ricardo.gerin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\obj\\",
+        "outputPath": "C:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ricardo.gerin\\AppData\\Roaming\\NuGet\\NuGet.Config",

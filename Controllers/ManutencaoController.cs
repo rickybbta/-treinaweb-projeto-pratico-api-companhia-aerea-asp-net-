@@ -16,20 +16,20 @@ public class ManutencaoController: ControllerBase
     }
 
     [HttpPost]
-    public IActionResult AdicionarManutencao(AdicionarManutencaoViewModel dados)
+    public IActionResult AdicionarManutencao([FromBody] AdicionarManutencaoViewModel dados)
     {
         var manutencao = _manutencaoService.AdicionarManutencao(dados);
         return Ok(manutencao);
     }
 
-    [HttpGet]
-    public IActionResult ListarManutencoes(int aeronaveId)
+    [HttpGet("{aeronaveId}")]
+    public IActionResult ListarManutencoes([FromRoute] int aeronaveId)
     {
         return Ok(_manutencaoService.ListarManutencoes(aeronaveId));
     }
 
     [HttpPut("{id}")]
-    public IActionResult AtualizarManutencao(int id, AtualizarManutencaoViewModel dados)
+    public IActionResult AtualizarManutencao([FromRoute] int id, [FromBody] AtualizarManutencaoViewModel dados)
     {
         if (id != dados.Id)
             return BadRequest("O id informado na URL é diferente do id informado no corpo da requisição.");
@@ -39,7 +39,7 @@ public class ManutencaoController: ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public IActionResult ExcluirManutencao(int id)
+    public IActionResult ExcluirManutencao([FromRoute] int id)
     {
         _manutencaoService.ExcluirManutencao(id);
         return NoContent();

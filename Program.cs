@@ -37,7 +37,7 @@ builder.Services.AddTransient<CancelarVooValidator>();
 builder.Services.AddTransient<AdicionarManutencaoValidator>();
 builder.Services.AddTransient<AtualizarManutencaoValidator>();
 builder.Services.AddTransient<ExcluirManutencaoValidator>();
-
+//parâmetro da biblioteca de geração de pdf para injeção de dependência
 builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
 
 var app = builder.Build();

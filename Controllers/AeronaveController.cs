@@ -46,7 +46,7 @@ public class AeronaveController : ControllerBase
     {
         if (id != dados.Id)
             return BadRequest("O id informado na URL é diferente do id informado no corpo da requisição.");
-
+    
         var aeronave = _aeronaveService.AtualizarAeronave(dados);
         return Ok(aeronave);
     }

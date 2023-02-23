@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "E1xbqEuXEiu1Gg3T8eMoYiitcPTW8635H4G+sTGLqn85Hf0HjvZI3ORVdQ8DcNLwbYoM3sSWnCHQHJr/4j84Ng==",
+  "dgSpecHash": "rZ/6RGgjtEIM8Ssknyoju5tc63mHpX1NzGWdrtXvUK9IfzajqKr2rZ/w+AAKKweNHvD+PezURe9FkeWFCQBZfA==",
   "success": true,
-  "projectFilePath": "d:\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
+  "projectFilePath": "D:\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\dinktopdf\\1.0.8\\dinktopdf.1.0.8.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

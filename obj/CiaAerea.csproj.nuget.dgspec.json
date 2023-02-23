@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj": {}
+    "d:\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj": {
+    "d:\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
+        "projectUniqueName": "d:\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
         "projectName": "CiaAerea",
-        "projectPath": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
-        "packagesPath": "C:\\Users\\ricardo.gerin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ricardo.gerin\\Desktop\\TREINAWEB\\DOTNET\\CIAAEREA\\obj\\",
+        "projectPath": "d:\\TREINAWEB\\DOTNET\\CIAAEREA\\CiaAerea.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "d:\\TREINAWEB\\DOTNET\\CIAAEREA\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ricardo.gerin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -86,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

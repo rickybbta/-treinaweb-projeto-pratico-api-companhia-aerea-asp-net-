@@ -18,10 +18,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<CiaAereaContext>();
+//Services
 builder.Services.AddTransient<AeronaveService>();
 builder.Services.AddTransient<PilotoService>();
 builder.Services.AddTransient<VooService>();
 builder.Services.AddTransient<ManutencaoService>();
+//Validators
 builder.Services.AddTransient<AdicionarAeronaveValidator>();
 builder.Services.AddTransient<AtualizarAeronaveValidator>();
 builder.Services.AddTransient<ExcluirAeronaveValidator>();

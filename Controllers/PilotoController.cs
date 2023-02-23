@@ -16,10 +16,10 @@ public class PilotoController: ControllerBase
     }
 
     [HttpPost]
-    public IActionResult AdicionarPiloto(AdicionarPilotoViewModel dados)
+    public IActionResult AdicionarPiloto([FromBody] AdicionarPilotoViewModel dados)
     {
         var piloto = _pilotoService.AdicionarPiloto(dados);
-        return Ok(piloto);
+        return CreatedAtAction(nameof(ListarPilotoPeloId), new { id = piloto.Id }, piloto);
     }
 
     [HttpGet]
@@ -29,7 +29,7 @@ public class PilotoController: ControllerBase
     }
 
     [HttpGet("{id}")]
-    public IActionResult ListarPilotoPeloId(int id)
+    public IActionResult ListarPilotoPeloId([FromRoute] int id)
     {
         var piloto = _pilotoService.ListarPilotoPeloId(id);
 
@@ -42,7 +42,7 @@ public class PilotoController: ControllerBase
     }
 
     [HttpPut("{id}")]
-    public IActionResult AtualizarPiloto(int id, AtualizarPilotoViewModel dados)
+    public IActionResult AtualizarPiloto([FromRoute] int id, [FromBody] AtualizarPilotoViewModel dados)
     {
         if (id != dados.Id)
             return BadRequest("O id informado na URL é diferente do id informado no corpo da requisição.");
@@ -52,7 +52,7 @@ public class PilotoController: ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public IActionResult ExcluirPiloto(int id)
+    public IActionResult ExcluirPiloto([FromRoute] int id)
     {
         _pilotoService.ExcluirPiloto(id);
         return NoContent();

@@ -276,3 +276,5 @@ D:\TREINAWEB\DOTNET\CIAAEREA\obj\Debug\net7.0\CiaAerea.genruntimeconfig.cache
 D:\TREINAWEB\DOTNET\CIAAEREA\obj\Debug\net7.0\ref\CiaAerea.dll
 D:\TREINAWEB\DOTNET\CIAAEREA\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
 D:\TREINAWEB\DOTNET\CIAAEREA\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\ricardo.gerin\Desktop\TREINAWEB\DOTNET\CIAAEREA\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\ricardo.gerin\Desktop\TREINAWEB\DOTNET\CIAAEREA\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll

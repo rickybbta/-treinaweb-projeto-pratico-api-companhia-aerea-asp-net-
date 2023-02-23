@@ -18,7 +18,7 @@ public class VooController: ControllerBase
     }
 
     [HttpPost]
-    public IActionResult AdicionarVoo(AdicionarVooViewModel dados)
+    public IActionResult AdicionarVoo([FromBody] AdicionarVooViewModel dados)
     {
         var voo = _vooService.AdicionarVoo(dados);
         return CreatedAtAction(nameof(ListarVooPeloId), new { voo.Id }, voo);
@@ -31,7 +31,7 @@ public class VooController: ControllerBase
     }
 
     [HttpGet("{id}")]
-    public IActionResult ListarVooPeloId(int id)
+    public IActionResult ListarVooPeloId([FromRoute] int id)
     {
         var voo = _vooService.ListarVooPeloId(id);
 
@@ -44,7 +44,7 @@ public class VooController: ControllerBase
     }
 
     [HttpPut("{id}")]
-    public IActionResult AtualizarVoo(int id, AtualizarVooViewModel dados)
+    public IActionResult AtualizarVoo([FromRoute] int id, [FromBody] AtualizarVooViewModel dados)
     {
         if (id != dados.Id)
             return BadRequest("O id informado na URL é diferente do id informado no corpo da requisição."); 
@@ -60,21 +60,21 @@ public class VooController: ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public IActionResult ExcluirVoo(int id)
+    public IActionResult ExcluirVoo([FromRoute] int id)
     {
         _vooService.ExcluirVoo(id);
         return NoContent();
     }
 
     [HttpPost("cancelar")]
-    public IActionResult CancelarVoo(CancelarVooViewModel dados)
+    public IActionResult CancelarVoo([FromBody] CancelarVooViewModel dados)
     {
         var vooCancelado = _vooService.CancelarVoo(dados);
         return Ok(vooCancelado);
     }
 
     [HttpGet("{id}/ficha")]
-    public IActionResult GerarFichaDoVoo(int id)
+    public IActionResult GerarFichaDoVoo([FromRoute] int id)
     {
         var conteudo = _vooService.GerarFichaDoVoo(id);
 

@@ -12,7 +12,7 @@ public class CancelarVooValidator : AbstractValidator<CancelarVooViewModel>
     public CancelarVooValidator(CiaAereaContext context)
     {
         _context = context;
-
+        //include funciona como um innerjoin para as tabelas relacionadas
         RuleFor(c => c).Custom((cancelamento, validationContext) => {
             var voo = _context.Voos.Include(v => v.Cancelamento)
                                    .FirstOrDefault(v => v.Id == cancelamento.VooId);

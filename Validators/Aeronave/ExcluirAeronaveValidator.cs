@@ -11,7 +11,7 @@ public class ExcluirAeronaveValidator: AbstractValidator<int>
     public ExcluirAeronaveValidator(CiaAereaContext context)
     {
         _context = context;
-
+        //include funciona como um innerjoin para as tabelas relacionadas
         RuleFor(id => _context.Aeronaves.Include(a => a.Voos).Include(a => a.Manutencoes).FirstOrDefault(a => a.Id == id))
             .Cascade(CascadeMode.Stop)
             .NotNull().WithMessage("Id da aeronave inválido")
